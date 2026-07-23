@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="DailyDrip.Mobile.Views.WelcomePage"
+    BackgroundColor="#0F172A">
+
+    <Grid Padding="30">
+
+        <VerticalStackLayout
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Spacing="20">
+
+            <Label
+                Text="👕"
+                FontSize="90"
+                HorizontalOptions="Center"/>
+
+            <Label
+                Text="DailyDrip"
+                FontSize="42"
+                FontAttributes="Bold"
+                TextColor="White"
+                HorizontalOptions="Center"/>
+
+            <Label
+                Text="Dress Smart. Every Day."
+                FontSize="20"
+                TextColor="#CBD5E1"
+                HorizontalTextAlignment="Center"/>
+
+            <Label
+                Text="Your wardrobe powered by weather and AI."
+                FontSize="16"
+                TextColor="#94A3B8"
+                HorizontalTextAlignment="Center"/>
+
+            <Button
+                Text="Get Started"
+                HeightRequest="55"
+                CornerRadius="16"
+                BackgroundColor="#2563EB"
+                TextColor="White"/>
+
+            <Button
+                Text="Sign In"
+                HeightRequest="55"
+                CornerRadius="16"
+                BackgroundColor="Transparent"
+                BorderColor="White"
+                BorderWidth="2"
+                TextColor="White"/>
+
+        </VerticalStackLayout>
+
+    </Grid>
+
+</ContentPage>
